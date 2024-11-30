@@ -1,0 +1,115 @@
+.research .icon {
+    width: 34px;
+    height: 34px;
+}
+
+.paper img{
+    border-radius: 15px!important;
+    #background: linear-gradient(135deg, var(--dark-blue), var(--blue));
+}
+
+.paper .authors{
+    font-size: 15px;
+    color: #9d9d9d;
+    font-weight: 400;
+}
+
+.paper .published{
+    font-weight: 400;
+    font-style: italic;
+}
+
+.paper .material-symbols-rounded {
+    font-size: 24px;
+}
+
+.paper .summary {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+@media (max-width: 992px) {
+    .paper .summary {
+        -webkit-line-clamp: 10;
+    }
+}
+@media (max-width: 576px) {
+    .paper .summary {
+        -webkit-line-clamp: 15;
+    }
+}
+
+.popover{
+    max-width: 100% !important;
+}
+
+.research button{
+    border-style: none;
+    background-color: #1110;
+    padding: 0;
+}
+.research_area_box{
+    width: 180px !important;
+    height: 180px !important;
+    border-radius: 15px;
+    background: #aaa;
+    position: relative;
+    text-align: center;
+    transition: transform .2s, filter .2s;
+}
+@media (max-width: 576px) {
+    .research_area_box {
+        width: 100% !important;
+        height: 120px !important;
+        font-size: 15px;
+    }
+}
+
+.research_area_image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.research_area_image img{
+    height: 100%;
+    width: 100%;
+    filter: blur(2px) brightness(0.9);
+    transform: scale(1.1);
+    object-fit: cover;
+}
+
+.research_area_box:hover{
+    filter: brightness(1.1);
+    transform: scale(1.1);
+    transition: transform .2s, filter .2s;
+}
+
+.research_area_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 0px 0px 25px black, 0px 0px 6px #000;
+}
+
+
+
+
+@media (min-width: 1100px) {
+    .extra-offset {
+        padding-bottom: 52px;
+    }
+}

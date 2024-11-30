@@ -1,0 +1,115 @@
+:root{
+    --navbar-big: 65px;
+    --navbar-small: 54px;
+}
+
+.navElem.nav-link {
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.navElem, .navElem-mobile{
+    color: #00000077 !important;
+    font-weight:400;
+    transition: background-color .2s;
+}
+
+.navElem.active {
+    background: linear-gradient(to top, var(--blue) 3px, #FFFFFF00 3px);
+    color: var(--blue) !important;
+    font-weight:500;
+}
+.navElem-mobile.active {
+    background: linear-gradient(to left, var(--blue), var(--light-blue));
+    color: var(--white) !important;
+    font-weight:500;
+}
+
+.navElem:hover{
+    background: linear-gradient(to top, var(--blue) 3px, #FFFFFF00 3px);
+    color: var(--black) !important;
+    transition: background-color .2s;
+}
+.navElem-mobile:hover{
+    #transition: background-color .95s ease-in-out;
+    color: var(--black) !important;
+}
+
+.navElem.active:hover{
+    color: var(--blue) !important;
+}
+.navElem-mobile.active:hover{
+    color: var(--white) !important;
+}
+.my-header-border{
+    background: var(--light-gray);
+    height:1px;
+}
+.my-collapse{
+    background: var(--light-gray);
+}
+
+.my-header {
+    height: var(--navbar-big);
+    background: var(--white);
+}
+
+.my-offset{
+    height: calc( var(--navbar-big) + 7px);
+}
+.my-logo{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+    font-size: 40px;
+    color: var(--blue);
+    font-weight: 500;
+    align-text: center;
+}
+.my-logo-icon{
+    height: 50px;
+}
+
+@media (max-width: 576px) {
+    .my-header {
+        height: var(--navbar-small);
+    }
+    .my-offset {
+        height: calc( var(--navbar-small) + 7px);
+    }
+    .my-logo{
+        font-size:30px;
+    }
+    .my-logo-icon {
+         height: 28px;
+     }
+}
+
+
+.my-menu-button{
+    display: none;
+}
+.show-subbar {
+    display: flex !important;
+}
+
+@media (max-width: 1100px){
+    .my-navbar{
+        display:none !important;
+    }
+    .my-menu-button{
+        display: flex;
+    }
+    .show-subbar {
+        display: none !important;
+    }
+}
+
+
+.subbar-elem {
+    font-weight:500;
+}
+.subbar-elem, .subbar-elem-mobile {
+    color: #00000077 !important;
+}
+.subbar-elem:hover, .subbar-elem-mobile:hover {
+    color: var(--black) !important;
+}
+

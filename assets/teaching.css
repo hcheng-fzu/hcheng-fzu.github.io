@@ -1,0 +1,19 @@
+.teaching .icon {
+    color: var(--blue);
+}
+
+.courseName {
+    font-family: var(--open-sans);
+    font-size: 18px;
+}
+
+.courseCode {
+    font-family: var(--open-sans);
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.courseText {
+    font-family: var(--open-sans);
+    font-size: 16px;
+}

@@ -1,0 +1,44 @@
+.application-step {
+    display: inline-block;
+    font-size: 17px;
+}
+
+@media (max-width: 576px) {
+    .application-step {
+        display: inline-block;
+        font-size: 13px;
+    }
+}
+
+.opening-description {
+    font-size: 16px;
+    text-align: justify;
+}
+
+@media (max-width: 576px) {
+    .opening-description {
+        font-size: 14px;
+    }
+
+    .opening .underlined-header {
+        font-size: 30px;
+    }
+}
+
+.opening .card-body {
+    padding-right: 4em !important;
+    padding-left:  4em !important;
+}
+
+@media (max-width: 576px) {
+    .opening .card-body {
+        padding-right: 2em !important;
+        padding-left:  2em !important;
+    }
+}
+
+.opening .icon-no-hover {
+    color: var(--dark-gray);
+    font-size: 25px !important;
+}
+

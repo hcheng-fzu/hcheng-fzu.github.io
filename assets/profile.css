@@ -1,0 +1,71 @@
+.profile .icon {
+    font-size: 37px !important;
+}
+
+.profile .icon-no-hover {
+    color: var(--dark-gray);
+    font-size: 25px !important;
+}
+
+.profile .member-name {
+    font-size: 33px;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+}
+
+.profile .member-position{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+}
+
+.profile .member-info {
+    font-size: 17px;
+}
+
+.profile .rounded-circle {
+    outline: 7px solid var(--white);
+}
+
+.btn-profile{
+    background-color: var(--blue) !important;
+    color: #ffffff !important;
+}
+
+.curriculum{
+    font-size: 14px;
+}
+
+.curriculum h1{
+    font-size: 20px;
+}
+
+.curriculum h2{
+    font-size: 17px;
+}
+
+.curriculum h2{
+    font-size: 16px;
+}
+
+
+.profile-content h1,
+.profile-content h2,
+.profile-content h3,
+.profile-content h4,
+.profile-content h5,
+.profile-content h6 {
+    font-family: var(--open-sans);
+    padding: 5px 0 5px 0;
+}
+
+
+.profile-content a:link{
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.profile-content a:hover {
+    color: var(--red) !important;
+}

@@ -1,0 +1,16 @@
+.contact .icon{
+    font-size: 32px;
+}
+
+.my-location{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:300px;
+}
+@media (max-width: 992px){
+    .my-location {
+        height: auto;
+    }
+}

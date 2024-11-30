@@ -1,0 +1,35 @@
+.project-header {
+    font-size: 35px;
+    color: var(--dark-gray);
+    text-align: center!important;
+    margin-top: 2rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.project-description {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.project-padding {
+    padding-left:  7em !important;
+    padding-right: 7em !important;
+}
+
+@media (max-width: 576px) {
+    .project-header {
+        font-size: 30px;
+        color: var(--dark-gray);
+        margin-top: 1rem   !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .project-description {
+        font-size: 14px;
+    }
+
+    .project-padding {
+        padding-left:  1em !important;
+        padding-right: 1em !important;
+    }
+}

@@ -1,0 +1,44 @@
+.award_box {
+    width: 350px !important;
+    height: 175px !important;
+    border-radius: 15px !important;
+    text-align: center;
+    transition: transform .2s, filter .2s;
+}
+
+.awards .year {
+    font-size: 23px;
+}
+
+.awards .rank {
+    font-size: 30px;
+    color: var(--gold);
+}
+
+.awards .outof {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--gold);
+}
+
+.awards .title {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    color: var(--black);
+}
+.awards .subtitle {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.awards .other {
+    font-size: 10px;
+    color: var(--gray);
+}
+
+.awards .prize {
+    font-size: 15px;
+    color: var(--black);
+}
